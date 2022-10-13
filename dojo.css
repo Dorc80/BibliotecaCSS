@@ -1,3 +1,16 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+width: 1200px;
+margin: 0 auto;
+}  
+
 .btn {
     border: 2px solid black;
     color: rgb(213, 225, 247);
@@ -31,6 +44,8 @@
     color: white;
     padding-left: 20px;
     font-family: 'Roboto', sans-serif;
+    height: 55px;
+    align-items: center;
 }
 
 .nav-links {
