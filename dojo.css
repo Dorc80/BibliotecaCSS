@@ -1,0 +1,58 @@
+.btn {
+    border: 2px solid black;
+    color: rgb(213, 225, 247);
+    background-color: rgb(65,118, 221);
+    width: 163px;
+    height: 37px;
+    font-size: 17px;
+    box-shadow: 3px 3px black;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1
+}
+
+.col-2 {
+    flex: 2
+}
+
+.col-3 {
+    flex: 3
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav .nav-links li {
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav .nav-links li a {
+    text-decoration: none;
+    color: rgb(151, 150, 151);
+}
+
+.nav .nav-links li a[class=active] {
+    color: white
+}
